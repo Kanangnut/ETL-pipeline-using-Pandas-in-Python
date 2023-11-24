@@ -11,8 +11,7 @@ These csv file contained dataset of movies listed and including to, <br>
 <br><br>
 
 <b>API key</b><br>
-
-api_key = 'api key'
+![image](https://github.com/Kanangnut/ETL-pipeline-using-Pandas-in-Python/assets/130201193/1d523584-5ad4-412a-a591-616762a0af98)
 
 Create the pythonFile.py for:
  - This script extracts data from a website without any transformation or cleaning.
@@ -29,10 +28,8 @@ Create the pythonCSV.py for:
  - Code for saving data to a CSV file
 
 <b>Import necessary libraries</b><br>
-import pandas as pd
-import json
-import requests
-import config
+![image](https://github.com/Kanangnut/ETL-pipeline-using-Pandas-in-Python/assets/130201193/f70cdae6-2298-4d2b-b202-c7a49e66cf7b)
+
 
 <b>Data Extraction</b></br>
  - The dataset has 28 column with 837 rows, with no any cleaning data.
