@@ -28,8 +28,7 @@ Create the pythonCSV.py for:
  - Code for saving data to a CSV file
 
 <b>Import necessary libraries</b><br>
-![image](https://github.com/Kanangnut/ETL-pipeline-using-Pandas-in-Python/assets/130201193/f70cdae6-2298-4d2b-b202-c7a49e66cf7b)
-
+![image](https://github.com/Kanangnut/ETL-pipeline-using-Pandas-in-Python/assets/130201193/e65568dd-b7fc-4ebb-93b8-7822bda4b8a6)
 
 <b>Data Extraction</b></br>
  - The dataset has 28 column with 837 rows, with no any cleaning data.
@@ -37,7 +36,7 @@ Create the pythonCSV.py for:
    - send a single GET request to the API, receive a JSON record
 {'success': False, 'status_code': 34, 'status_message': 'The resource you requested could not be found.'}
 
-![image](https://github.com/Kanangnut/ETL-pipeline-using-Pandas-in-Python/assets/130201193/04fa30f4-24e9-42ad-927e-4eb2c76ddd5f)
+![image](https://github.com/Kanangnut/ETL-pipeline-using-Pandas-in-Python/assets/130201193/a7cf7e76-b5d7-40e1-84c5-4257c360116a)
 
 <b>Data Tranformation</b><br>
  - List of column names we want to work with from the main dataframe df_columns = ["column1", "column2", "column3", ...] # Replace with actual column names
@@ -46,7 +45,7 @@ Create the pythonCSV.py for:
  - Save the selected columns to a CSV file
  - Code for saving selected data to a CSV file
 <br>
-![image](https://github.com/Kanangnut/ETL-pipeline-using-Pandas-in-Python/assets/130201193/d9db1f84-ca26-4df5-9f79-6be59a1e762c)
+![image](https://github.com/Kanangnut/ETL-pipeline-using-Pandas-in-Python/assets/130201193/9a876b15-e77b-44c1-9519-d8f5f793c592)
 <br>
 
 Define a function to extract the English name of spoken languages def get_spoken_languages(row):
