@@ -93,6 +93,7 @@ Define a function to create genre columns def create_genre_columns(row, genres):
 - Save the cleaned and transformed data to a CSV file
 - Code for saving data to a CSV file
 
+![image](https://github.com/Kanangnut/ETL-pipeline-using-Pandas-in-Python/assets/130201193/4c90716d-8f79-4241-9731-9e3f0640ea65)
 
 
 
