@@ -98,8 +98,13 @@ Define a function to create genre columns def create_genre_columns(row, genres):
 Creat list of unique genres to explode out
 ![image](https://github.com/Kanangnut/ETL-pipeline-using-Pandas-in-Python/assets/130201193/1d018101-4e75-49c9-8127-9b4658697695)
 
+In the process of preparing our data for analysis or machine learning, we've enhanced our dataset. First, we expanded the list of columns we're working with, including unique genres identified through the get_unique_genres function. Next, we broke down the 'genres_all' column into individual rows, allowing us to represent each movie's genres more granularly. To make this information suitable for analytical and machine learning algorithms, we utilized pd.crosstab to generate binary columns for each unique genre. In this binary representation, a value of 1 indicates that a specific genre is associated with a movie, while a value of 0 indicates its absence. This approach simplifies the categorical genre data, making it easier to process and analyze in our tasks.
 
-
+ - create a list of column names called df_columns that allows us to select the columns we want from the main dataframe. df_columns = ['title', 'spoken_languages', 'production_countries',
+![image](https://github.com/Kanangnut/ETL-pipeline-using-Pandas-in-Python/assets/130201193/f645dd58-d17a-4b23-912d-26cf44b46d6f)
+ - add column genres name df_columns.extend(get_unique_genres(genres_list))
+ - break the [genres] into peaces s = df['genres_all'].explode()
+ - make 0,1 in to each genres df = df.join(pd.crosstab(s.index, s))
 
 
 
