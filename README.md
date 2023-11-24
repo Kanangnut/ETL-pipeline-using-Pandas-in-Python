@@ -37,13 +37,6 @@ Create the pythonCSV.py for:
    - send a single GET request to the API, receive a JSON record
 {'success': False, 'status_code': 34, 'status_message': 'The resource you requested could not be found.'}
 
-    def get_response_list():<br>
-     for movie_id in range(1, 837):<br>
-       r = requests.get(<br>
-            'https://api.themoviedb.org/3/movie/{}?api_key={}'.format(movie_id, API_KEY))<br>
-        if not ('success' in r.json() and str(r.json()['success']) == "False"):<br>
-            response_list.append(r.json())<br>
-
 
 
 
