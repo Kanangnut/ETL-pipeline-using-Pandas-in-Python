@@ -49,7 +49,18 @@ Create the pythonCSV.py for:
 ![image](https://github.com/Kanangnut/ETL-pipeline-using-Pandas-in-Python/assets/130201193/d9db1f84-ca26-4df5-9f79-6be59a1e762c)
 <br>
 
+Define a function to extract the English name of spoken languages def get_spoken_languages(row):
+ - Extract the spoken languages information spoken_languages = row['spoken_languages']
+ - Check if the spoken_languages field is not empty if spoken_languages:
+   
+    - Iterate through the list of dictionaries to find the 'english_name' field for language in spoken_languages: if 'english_name' in language:
+        return language['english_name']
+    - Return None if 'english_name' is not found return None
 
+ - Apply the function to the 'spoken_languages' column to create a new column with cleaned data
+ - df['cleaned_spoken_languages'] = df.apply(get_spoken_languages, axis=1)
+ - Save the cleaned and transformed data to a CSV file
+ - Code for saving data to a CSV file
 
 
 
