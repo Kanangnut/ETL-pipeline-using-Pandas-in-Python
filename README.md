@@ -106,6 +106,19 @@ In the process of preparing our data for analysis or machine learning, we've enh
  - break the [genres] into peaces s = df['genres_all'].explode()
  - make 0,1 in to each genres df = df.join(pd.crosstab(s.index, s))
 
+![image](https://github.com/Kanangnut/ETL-pipeline-using-Pandas-in-Python/assets/130201193/1cc31d24-ebba-4490-8ba4-a17577a881a1)
+
+Then finalized the process by persisting the data into a table. The data has been written to CSV files, which are stored in the same directory as my script.
+
+![image](https://github.com/Kanangnut/ETL-pipeline-using-Pandas-in-Python/assets/130201193/17973552-b23e-47d4-89e2-a0368c723c5d)
+
+This is the result from ETL pipeline.
+
+![image](https://github.com/Kanangnut/ETL-pipeline-using-Pandas-in-Python/assets/130201193/07857b58-47a9-4f71-9f5d-f4671e34b26c)
+
+Source: https://www.kaggle.com/code/kanangnuts/etl-pipeline-using-pandas-in-python
+
+
 
 
 
