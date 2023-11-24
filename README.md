@@ -45,6 +45,9 @@ Create the pythonCSV.py for:
  - Code for selecting columns from the raw data
  - Save the selected columns to a CSV file
  - Code for saving selected data to a CSV file
+<br>
+![image](https://github.com/Kanangnut/ETL-pipeline-using-Pandas-in-Python/assets/130201193/b58e7359-e7fb-4da3-a5c5-f701b5f929c8)
+<br>
 
 
 
