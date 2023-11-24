@@ -11,19 +11,19 @@ These csv file contained dataset of movies listed and including to, <br>
 <br><br>
 
 <b>API key</b><br>
-![image](https://github.com/Kanangnut/ETL-pipeline-using-Pandas-in-Python/assets/130201193/55b931d8-f2b5-4f4b-add0-1e083d36a830)
+
+api_key = 'api key'
 
 Create the pythonFile.py for:
+ - This script extracts data from a website without any transformation or cleaning.
+ - The purpose is to explore the raw data and understand its structure.
+ - Your code for extracting data goes here
+ - Save the raw data to a CSV file without any cleaning or transformation
+ - This step helps in understanding the nature of the data and planning for the ETL process
+ - Code for saving data to a CSV file
 
-This script extracts data from a website without any transformation or cleaning.
-The purpose is to explore the raw data and understand its structure.
-Your code for extracting data goes here
-Save the raw data to a CSV file without any cleaning or transformation
-This step helps in understanding the nature of the data and planning for the ETL process
-Code for saving data to a CSV file
 Create the pythonCSV.py for:
-
-This script creates a CSV file after applying the ETL (Data Extraction, Data Transformation, Data Loading) pipeline to the data obtained from a website using an API key.
-Import necessary libraries for data manipulation and API requests
-Save the cleaned and transformed data to a CSV file
-Code for saving data to a CSV file
+ - This script creates a CSV file after applying the ETL (Data Extraction, Data Transformation, Data Loading) pipeline to the data obtained from a website using an API key.
+ - Import necessary libraries for data manipulation and API requests
+ - Save the cleaned and transformed data to a CSV file
+ - Code for saving data to a CSV file
