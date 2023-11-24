@@ -74,6 +74,9 @@ Define a function to extract the production country name def get_production_coun
 - df['cleaned_production_countries'] = df.apply(get_production_countries, axis=1)
 - Save the cleaned and transformed data to a CSV file
 - Code for saving data to a CSV file
+  
+![image](https://github.com/Kanangnut/ETL-pipeline-using-Pandas-in-Python/assets/130201193/bb4cc990-9e9d-48a0-b1e8-c0ba30f6dad2)
+
 
 
 
