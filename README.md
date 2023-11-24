@@ -39,6 +39,13 @@ Create the pythonCSV.py for:
 
 ![image](https://github.com/Kanangnut/ETL-pipeline-using-Pandas-in-Python/assets/130201193/04fa30f4-24e9-42ad-927e-4eb2c76ddd5f)
 
+<b>Data Tranformation</b><br>
+ - List of column names we want to work with from the main dataframe df_columns = ["column1", "column2", "column3", ...] # Replace with actual column names
+ - Select only the columns specified in df_columns
+ - Code for selecting columns from the raw data
+ - Save the selected columns to a CSV file
+ - Code for saving selected data to a CSV file
+
 
 
 
