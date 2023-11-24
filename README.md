@@ -104,4 +104,3 @@ Define a function to create genre columns def create_genre_columns(row, genres):
 
 
 
-
