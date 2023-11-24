@@ -37,6 +37,7 @@ Create the pythonCSV.py for:
    - send a single GET request to the API, receive a JSON record
 {'success': False, 'status_code': 34, 'status_message': 'The resource you requested could not be found.'}
 
+![image](https://github.com/Kanangnut/ETL-pipeline-using-Pandas-in-Python/assets/130201193/04fa30f4-24e9-42ad-927e-4eb2c76ddd5f)
 
 
 
