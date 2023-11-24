@@ -50,7 +50,7 @@ Create the pythonCSV.py for:
 Define a function to extract the English name of spoken languages def get_spoken_languages(row):
  - Extract the spoken languages information spoken_languages = row['spoken_languages']
  - Check if the spoken_languages field is not empty if spoken_languages:
-   
+
     - Iterate through the list of dictionaries to find the 'english_name' field for language in spoken_languages: if 'english_name' in language:
         return language['english_name']
     - Return None if 'english_name' is not found return None
@@ -60,8 +60,20 @@ Define a function to extract the English name of spoken languages def get_spoken
  - Save the cleaned and transformed data to a CSV file
  - Code for saving data to a CSV file
 
+![image](https://github.com/Kanangnut/ETL-pipeline-using-Pandas-in-Python/assets/130201193/b806f6a5-aaaf-4ad1-a737-964b039992bd)
 
+Define a function to extract the production country name def get_production_countries(row):
+ - Extract the name of the production country production_countries = row['production_countries']
+ - Check if the production_countries field is not empty if production_countries:
+   
+    - Iterate through the list of dictionaries to find the 'name' field with the value 'United Kingdom' for country in production_countries: if 'name' in country and country['name'] == 'United Kingdom':
+        return 'United Kingdom'
+    - Return None if 'United Kingdom' is not found return None
 
+- Apply the function to the 'production_countries' column to create a new column with cleaned data
+- df['cleaned_production_countries'] = df.apply(get_production_countries, axis=1)
+- Save the cleaned and transformed data to a CSV file
+- Code for saving data to a CSV file
 
 
 
