@@ -27,3 +27,35 @@ Create the pythonCSV.py for:
  - Import necessary libraries for data manipulation and API requests
  - Save the cleaned and transformed data to a CSV file
  - Code for saving data to a CSV file
+
+<b>Import necessary libraries</b><br>
+import pandas as pd
+import json
+import requests
+import config
+
+<b>Data Extraction<b></br>
+ - The dataset has 28 column with 837 rows, with no any cleaning data.
+   - create a loop that requests each movie one at a time and appends the response to a list.
+   - send a single GET request to the API, receive a JSON record
+{'success': False, 'status_code': 34, 'status_message': 'The resource you requested could not be found.'}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
