@@ -77,6 +77,21 @@ Define a function to extract the production country name def get_production_coun
   
 ![image](https://github.com/Kanangnut/ETL-pipeline-using-Pandas-in-Python/assets/130201193/bb4cc990-9e9d-48a0-b1e8-c0ba30f6dad2)
 
+Define a function to create genre columns def create_genre_columns(row, genres):
+ - Extract the genres information movie_genres = row['genres']
+ - Initialize a dictionary to store the genre columns genre_columns = {genre['name']: 0 for genre in genres}
+ - Check if the genres field is not empty if movie_genres:
+   - Iterate through the list of dictionaries to find the 'name' field for genre in movie_genres: if 'name' in genre:
+       Set the corresponding genre column to 1 if the movie belongs to that genre
+     genre_columns[genre['name']] = 1
+   return genre_columns
+
+- List of genres you want to create columns for genre_list = ['Crime', 'Drama', 'Thriller', ...] # Replace with actual genre names
+- Apply the function to create genre columns and merge them with the main dataframe
+  - genre_columns_df = df.apply(create_genre_columns, axis=1, genres=genre_list)
+  - df = pd.concat([df, genre_columns_df], axis=1)
+- Save the cleaned and transformed data to a CSV file
+- Code for saving data to a CSV file
 
 
 
