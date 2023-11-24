@@ -44,9 +44,6 @@ Create the pythonCSV.py for:
  - Code for selecting columns from the raw data
  - Save the selected columns to a CSV file
  - Code for saving selected data to a CSV file
-<br>
-![image](https://github.com/Kanangnut/ETL-pipeline-using-Pandas-in-Python/assets/130201193/9a876b15-e77b-44c1-9519-d8f5f793c592)
-<br>
 
 Define a function to extract the English name of spoken languages def get_spoken_languages(row):
  - Extract the spoken languages information spoken_languages = row['spoken_languages']
