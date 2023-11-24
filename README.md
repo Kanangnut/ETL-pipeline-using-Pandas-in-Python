@@ -34,7 +34,7 @@ import json
 import requests
 import config
 
-<b>Data Extraction<b></br>
+<b>Data Extraction</b></br>
  - The dataset has 28 column with 837 rows, with no any cleaning data.
    - create a loop that requests each movie one at a time and appends the response to a list.
    - send a single GET request to the API, receive a JSON record
