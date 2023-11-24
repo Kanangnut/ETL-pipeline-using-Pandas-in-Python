@@ -95,9 +95,8 @@ Define a function to create genre columns def create_genre_columns(row, genres):
 
 ![image](https://github.com/Kanangnut/ETL-pipeline-using-Pandas-in-Python/assets/130201193/6b06df68-ebb3-4e78-a56c-43f10869f661)
 
- - Creat list of unique genres to explode out
-![image](https://github.com/Kanangnut/ETL-pipeline-using-Pandas-in-Python/assets/130201193/a841d069-fe5a-4fc3-95b8-594b0a5d9810)
-
+Creat list of unique genres to explode out
+![image](https://github.com/Kanangnut/ETL-pipeline-using-Pandas-in-Python/assets/130201193/1d018101-4e75-49c9-8127-9b4658697695)
 
 
 
