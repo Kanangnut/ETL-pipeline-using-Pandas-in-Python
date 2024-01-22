@@ -47,6 +47,7 @@ Create the pythonCSV.py for:
 
 ![image](https://github.com/Kanangnut/ETL-pipeline-using-Pandas-in-Python/assets/130201193/e875affb-ce04-4c3b-bfcf-1322aad6225a)
 
+<b>Data Loading</b><br>
 Define a function to extract the English name of spoken languages def get_spoken_languages(row):
  - Extract the spoken languages information spoken_languages = row['spoken_languages']
  - Check if the spoken_languages field is not empty if spoken_languages:
